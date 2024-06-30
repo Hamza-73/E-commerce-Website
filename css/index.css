@@ -119,7 +119,9 @@ footer h4 {
 
 @media screen and (max-width: 600px) {
 
-
+    #products .card{
+        margin-bottom: 8%;
+    }
     footer {
         height: 50vh;
         text-align: center;
