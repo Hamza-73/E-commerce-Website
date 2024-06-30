@@ -48,7 +48,7 @@
                         onclick="loadContent('register.html')" >Register</button></a>
                 <a class="nav-link" href="#"><button class="btn btn-outline-light"
                         style="font-family: bahnschrift;margin-top: 10px;margin-bottom: 10px;"
-                        onclick="registerContent('login.html')" >Login</button></a>
+                        onclick="loadContent('login.html')" >Login</button></a>
             </div>
         </div>
     </nav>
@@ -102,6 +102,7 @@
                     .then(response => response.text())
                     .then(data => {
                         document.getElementById('main-content').innerHTML = data;
+                        document.title = page.replace('.html', '').toUpperCase()
                     });
             }
     

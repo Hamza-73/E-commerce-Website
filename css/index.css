@@ -147,6 +147,6 @@ footer h4 {
         left: 50%;
         top: 50%;
         transform: translateX(-50%);
-        width: 60vw;
+        width: 100vw;
     }
 }
